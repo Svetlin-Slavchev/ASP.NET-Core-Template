@@ -20,8 +20,8 @@ namespace SampleProject.Web.Controllers
             IHomeModel model = this.HomeService.GetModel();
 
             // Test only.
-            this.Data.TestEFEntitiesRepository.Add(new Entities.TestEFEntity() { Name = "test", Value = "update2" });
-            this.Data.TestEFEntitiesRepository.Save();
+            //this.Data.TestEFEntitiesRepository.Add(new Entities.TestEFEntity() { Name = "test", Value = "update2" });
+            //this.Data.TestEFEntitiesRepository.Save();
 
             return View(model);
         }
